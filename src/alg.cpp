@@ -7,7 +7,7 @@
 #include "tree.h"
 
 namespace {
-    void walk(PMTree::Node* now,
+void walk(PMTree::Node* now,
         std::vector<char>* way,
         std::vector<std::vector<char>>* ans) {
     if (now->children.empty()) {
